@@ -35,16 +35,20 @@ function App() {
           className=""
         >
           <div className="flex flex-col gap-4">
-            <HoverButton>
-              <a href="https://www.sagby.fr/" target="_blank">
-                Portfolio
-              </a>
-            </HoverButton>
-            <HoverButton>
-              <a href="/public/BOUHDJEUR_SALAHE-EDDINE_CV.pdf" target="_blank">
-                CV
-              </a>
-            </HoverButton>
+            <a
+              className="block w-full"
+              href="https://www.sagby.fr/"
+              target="_blank"
+            >
+              <HoverButton className="w-full">Portfolio</HoverButton>
+            </a>
+            <a
+              className="block w-full"
+              href="/public/BOUHDJEUR_SALAHE-EDDINE_CV.pdf"
+              target="_blank"
+            >
+              <HoverButton className="w-full">CV</HoverButton>
+            </a>
           </div>
           <div className="relative">
             <Dock direction="middle">
