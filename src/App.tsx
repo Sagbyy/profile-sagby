@@ -44,7 +44,7 @@ function App() {
             </a>
             <a
               className="block w-full"
-              href="/public/BOUHDJEUR_SALAHE-EDDINE_CV.pdf"
+              href="/BOUHDJEUR_SALAHE-EDDINE_CV.pdf"
               target="_blank"
             >
               <HoverButton className="w-full">CV</HoverButton>
